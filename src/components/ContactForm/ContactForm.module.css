@@ -1,0 +1,56 @@
+.contactForm {
+    display: flex;
+    align-items: baseline;
+    width: 320px;
+}
+.form {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+    width: 300px;
+    margin-bottom: 20px; 
+    padding: 20px; 
+    border: 1px solid #8b8b8b; /* Hafif bir sınır ekler */
+    border-radius: 8px; /* Köşeleri yuvarlatır */
+    background-color: #f9f9f9; /* Arka plan rengini açık yapar */
+  }
+  .error {
+    color: red;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  label {
+    font-size: 16px;
+    display: flex;
+    align-items: baseline;
+    color: #000000; /* Etiket rengi */
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #adadad;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e8e8e8; /* Buton arka planı yeşil */
+    color: rgb(0, 0, 0);
+    border: solid 2px gray;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b0b1b0; /* Buton hover efekti */
+  }
+  
